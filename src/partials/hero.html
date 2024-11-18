@@ -17,30 +17,56 @@
           <li class="hero-woman1">
             <img
               class="hero-people"
-              src="../img/hero/hero-woman1-mobile@2.webp"
+              src="/img/hero/hero-woman1-mobile@2.webp"
               alt="woman1"
             />
           </li>
           <li class="hero-man">
             <img
               class="hero-people"
-              src="../img/hero/hero-man2-mobile@2.webp"
+              src="/img/hero/hero-man2-mobile@2.webp"
               alt="man2"
             />
           </li>
           <li class="hero-woman2">
             <img
               class="hero-people"
-              src="../img/hero/hero-woman3-mobile@2.webp"
+              src="/img/hero/hero-woman3-mobile@2.webp"
               alt="woman3"
             />
           </li>
         </ul>
-        <div class="fix"><p class="anchor">Scroll down</p></div>
+        <div class="fix"><a href="#footer" class="anchor">Scroll down</a></div>
       </div>
     </div>
     <div class="hero-image">
-      <img src="../img/hero/hero-watches-mobile@2.webp" alt="watches" />
+      <picture>
+        <!-- Зображення для настільного комп'ютера -->
+        <source
+          srcset="
+            /img/hero/hero-watches-desktop.webp   1x,
+            /img/hero/hero-watches-desktop@2.webp 2x
+          "
+          media="(min-width: 1280px)"
+        />
+
+        <!-- Зображення для планшетів -->
+        <source
+          srcset="
+            /img/hero/hero-watches-tablet.webp   1x,
+            /img/hero/hero-watches-tablet@2.webp 2x
+          "
+          media="(min-width: 768px)"
+        />
+
+        <source
+          srcset="/img/hero/hero-watches-mobile.webp 1x"
+          media="(max-width: 767px)"
+        />
+
+        <!-- Зображення для телефонів -->
+        <img src="/img/hero/hero-watches-mobile@2.webp" alt="watches" />
+      </picture>
     </div>
   </div>
 </section>

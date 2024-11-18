@@ -65,7 +65,7 @@
   text-decoration-skip-ink: none;
   color: #0c0c0c;
   cursor: pointer;
-  transition: color 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .anchor:hover{
@@ -109,7 +109,8 @@
   .hero-images-section {
     justify-content: start;
     align-content: flex-start;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-top: 0;
   }
   
 
@@ -137,5 +138,21 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .upper-hero-back {
+      gap: 407px;
 
+    }
+
+    .h1-hero{
+      font-size: 72px;
+      line-height: 0.88;
+    }
+
+    .hero-people{
+      max-width: 60px;
+    }
+
+    .p-hero {
+      padding-right: 117px;
+    }
 }
