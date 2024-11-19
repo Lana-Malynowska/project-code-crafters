@@ -115,7 +115,8 @@
         width: 580px;
     }
 
-    .button-about-us:hover {
+    .button-about-us:hover,
+    .button-about-us:focus {
         background-color: #1F3CD4;
     }
 }
