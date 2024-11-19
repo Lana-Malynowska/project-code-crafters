@@ -21,8 +21,6 @@
 
 .p-hero{
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
@@ -135,16 +133,18 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .hero>.container {
+    padding-top: 80px;
+  }
+  
   .upper-hero-back {
       gap: 407px;
-
     }
 
     .h1-hero{
       font-size: 72px;
       line-height: 0.88;
     }
-
 
     .p-hero {
       padding-right: 117px;
