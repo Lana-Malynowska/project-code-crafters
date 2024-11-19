@@ -52,9 +52,10 @@
 }
 
 .hero-people{
-  max-width: 44px;
   border-radius: 100%;
 }
+
+
 
 .anchor{
   font-weight: 500;
@@ -99,10 +100,12 @@
     line-height: 1.25;
     padding-right: 77px;
   }
+  .container-hero-people {
+    padding-left: 36px;
+    padding-top: 240px;
+  }
 
   .anchor{
-    padding-left: 34px;
-    padding-top: 240px;
     font-size: 20px;
     line-height: 1;
   }
@@ -114,10 +117,6 @@
   }
   
 
-  .hero-people {
-    max-width: 56px;
-  }
-
   .hero-woman1 {
     position: absolute;
     top: 0px;
@@ -127,7 +126,7 @@
   .hero-man {
     position: absolute;
     top: 0px;
-    left: 42px;
+    left: 40px;
   }
 
   .hero-woman2 {
@@ -148,11 +147,12 @@
       line-height: 0.88;
     }
 
-    .hero-people{
-      max-width: 60px;
-    }
 
     .p-hero {
       padding-right: 117px;
+    }
+
+    .container-hero-people {
+      padding-left: 44px;
     }
 }

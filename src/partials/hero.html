@@ -13,27 +13,114 @@
         </p>
       </div>
       <div class="hero-images-section">
-        <ul>
+        <ul class="container-hero-people">
           <li class="hero-woman1">
-            <img
-              class="hero-people"
-              src="/img/hero/hero-woman1-mobile@2.webp"
-              alt="woman1"
-            />
+            <picture>
+              <!-- Зображення для настільного комп'ютера -->
+              <source
+                srcset="
+                  /img/hero/hero-woman1-desktop.webp   1x,
+                  /img/hero/hero-woman1-desktop@2.webp 2x
+                "
+                class="hero-people"
+                media="(min-width: 1280px)"
+              />
+
+              <!-- Зображення для планшетів -->
+              <source
+                srcset="
+                  /img/hero/hero-woman1-table.webp   1x,
+                  /img/hero/hero-woman1-table@2.webp 2x
+                "
+                class="hero-people"
+                media="(min-width: 768px)"
+              />
+
+              <source
+                srcset="/img/hero/hero-woman1-mobile.webp 1x"
+                class="hero-people"
+                media="(max-width: 767px)"
+              />
+
+              <!-- Зображення для телефонів -->
+              <img
+                src="/img/hero/hero-woman1-mobile@2.webp"
+                alt="first woman"
+                class="hero-people"
+              />
+            </picture>
           </li>
           <li class="hero-man">
-            <img
-              class="hero-people"
-              src="/img/hero/hero-man2-mobile@2.webp"
-              alt="man2"
-            />
+            <picture>
+              <!-- Зображення для настільного комп'ютера -->
+              <source
+                srcset="
+                  /img/hero/hero-man2-desktop.webp   1x,
+                  /img/hero/hero-man2-desktop@2.webp 2x
+                "
+                class="hero-people"
+                media="(min-width: 1280px)"
+              />
+
+              <!-- Зображення для планшетів -->
+              <source
+                srcset="
+                  /img/hero/hero-man2-table.webp   1x,
+                  /img/hero/hero-man2-table@2.webp 2x
+                "
+                class="hero-people"
+                media="(min-width: 768px)"
+              />
+
+              <source
+                srcset="/img/hero/hero-man2-mobile.webp 1x"
+                class="hero-people"
+                media="(max-width: 767px)"
+              />
+
+              <!-- Зображення для телефонів -->
+              <img
+                src="/img/hero/hero-man2-mobile@2.webp"
+                alt="second man"
+                class="hero-people"
+              />
+            </picture>
           </li>
           <li class="hero-woman2">
-            <img
-              class="hero-people"
-              src="/img/hero/hero-woman3-mobile@2.webp"
-              alt="woman3"
-            />
+            <picture>
+              <!-- Зображення для настільного комп'ютера -->
+              <source
+                srcset="
+                  /img/hero/hero-woman3-desktop.webp   1x,
+                  /img/hero/hero-woman3-desktop@2.webp 2x
+                "
+                class="hero-people"
+                media="(min-width: 1280px)"
+              />
+
+              <!-- Зображення для планшетів -->
+              <source
+                srcset="
+                  /img/hero/hero-woman3-table.webp   1x,
+                  /img/hero/hero-woman3-table@2.webp 2x
+                "
+                class="hero-people"
+                media="(min-width: 768px)"
+              />
+
+              <source
+                srcset="/img/hero/hero-woman3-mobile.webp 1x"
+                class="hero-people"
+                media="(max-width: 767px)"
+              />
+
+              <!-- Зображення для телефонів -->
+              <img
+                src="/img/hero/hero-woman3-mobile@2.webp"
+                alt="third woman"
+                class="hero-people"
+              />
+            </picture>
           </li>
         </ul>
         <div class="fix"><a href="#footer" class="anchor">Scroll down</a></div>
