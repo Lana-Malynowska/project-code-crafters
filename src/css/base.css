@@ -5,7 +5,7 @@
   letter-spacing: -0.02em;
 
   color: #0c0c0c;
-  background-color: #fbfbf;
+  background-color: #fbfbfb;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,6 +18,28 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+}
+
+p {
+  line-height: 1.29;
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  p {
+    line-height: 1.25;
+    font-size: 16px;
+  }
+
+  h2 {
+    line-height: 0.92;
+    font-size: 48px;
+  }
 }
 
 .visually-hidden {

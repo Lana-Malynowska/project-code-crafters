@@ -6,14 +6,14 @@
   padding: 30px 20px;
 }
 /* Styles for Tablet devices */
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .container {
     max-width: 768px;
     padding: 40px 32px;
   }
 }
 /* Styles for Desktop devices */
-@media only screen and (min-width: 1280px) {
+@media (min-width: 1280px) {
   .container {
     max-width: 1280px;
     padding: 50px 65px;
