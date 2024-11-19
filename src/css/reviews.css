@@ -31,7 +31,8 @@
 
 
 .reviews-item-photo {
-    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-radius: 100%;
 }
 
 .reviews-info {
