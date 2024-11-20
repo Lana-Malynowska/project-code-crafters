@@ -3,9 +3,6 @@
 .container {
 }
 .text-sale {
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 600;
-  font-size: 32px;
   line-height: 100%;
   letter-spacing: -0.02em;
   color: #0c0c0c;
@@ -64,8 +61,6 @@
 }
 .box-three-product {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 129%;
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.5);
   padding-bottom: 20px;
@@ -100,10 +95,7 @@
   margin-top: 9px;
 }
 .box-three-p {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 129%;
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.7);
   padding-top: 28px;
@@ -129,8 +121,7 @@
 @media (min-width: 768px) {
   .text-sale {
     font-family: 'Gilroy', sans-serif;
-    font-size: 48px;
-    line-height: 92%;
+    padding-bottom: 40px;
   }
   .box-one {
     display: list-item;
