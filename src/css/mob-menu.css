@@ -1,0 +1,139 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.mob-menu {
+    background-image: linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)), url(/img/mob-menu/bg-mob-menu-1x-mob.jpg);
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.mob-nav-menu {
+    margin-bottom: 24px;
+}
+
+.mob-close-btn {
+    display: block;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-bottom: 186px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
+    position: relative;
+}
+
+.mob-close-icon {
+    stroke-width: 2.50px;
+    stroke: #fbfbfb;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.mob-list {
+    display: flex;
+    gap: 24px; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.mob-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+}
+
+.mob-link-home {
+    position: relative;
+}
+
+.mob-link-home::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #3350e9;
+    top: 20px;
+    left: 15px;
+}
+
+.mob-soc-menu {
+    margin-bottom: 40px;
+}
+
+.mob-soc-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mob-soc-link {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-soc-icon:hover,
+.mob-soc-icon:focus {
+    fill: #fbfbfb;
+    opacity:1;
+}
+
+.mob-soc-icon {
+    fill: #fbfbfb;
+    opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+    .mob-menu {
+            background-image: linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)), url(/img/mob-menu/bg-mob-menu-1x-tab.jpg);
+        width: 330px;
+    }
+
+        .mob-close-btn {
+            width: 40px;
+            height: 40px;
+        }
+
+        .mob-close-icon {
+            width: 40px;
+            height: 40px;
+        }
+
+        .mob-close-btn {
+            margin-bottom: 244px;
+        }
+
+        .mob-list {
+            gap: 32px;
+        }
+}
