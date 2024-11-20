@@ -1,9 +1,3 @@
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
 .mob-menu {
     background-image: linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)), url(/img/mob-menu/bg-mob-menu-1x-mob.jpg);
     width: 200px;
