@@ -1,0 +1,118 @@
+.catalog {
+  padding: 50px 0px;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+.catalog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  margin-bottom: 40px;
+}
+.catalog-title {
+  display: inline-block;
+  width: 100%;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'Gilroy';
+  line-height: 0.91em;
+  color: #0c0c0c;
+  letter-spacing: -0.02em;
+}
+.catalog-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 16px;
+  gap: 23px;
+}
+.catalog-item {
+  width: 100%;
+  padding: 24px;
+  background-color: #f3f3f3;
+  border: 1px solid #0c0c0c0d;
+  border-radius: 30px;
+}
+.catalog-image img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  max-width: 292px;
+  width: 100%;
+}
+.catalog-image {
+  margin-bottom: 20px;
+}
+.catalog-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.catalog-description {
+  margin-bottom: 8px;
+  width: 100%;
+}
+.catalog-name {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Gilroy';
+  line-height: 1em;
+  color: #0c0c0c;
+  letter-spacing: -0.02em;
+}
+.catalog-price {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28em;
+  font-family: 'Gilroy';
+  color: #0c0c0c;
+  opacity: 0.5;
+  letter-spacing: -0.02em;
+}
+.hidden-mobile {
+  display: none;
+}
+.catalog-button {
+  width: fit-content;
+  margin-top: 40px;
+  padding: 15px 44px;
+  background-color: #3350e9;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Gilroy';
+  line-height: 1.2em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0px 32px;
+  }
+  .catalog__list {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px;
+    row-gap: 23px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .container {
+    padding: 0px 65px;
+  }
+  .catalog__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 23px;
+  }
+}
+@media screen and (min-width: 375px) {
+  button {
+    display: none;
+  }
+}
