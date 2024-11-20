@@ -16,14 +16,7 @@ h2 {
 }
 
 .catalog-title {
-  /* display: inline-block; */
-  /* width: 100%; */
-  /* font-size: 48px; */
-  /* font-weight: 600; */
-  /* font-family: 'Gilroy'; */
-  /* line-height: 0.91em; */
   color: #0c0c0c;
-  /* letter-spacing: -0.02em; */
 }
 .catalog-list {
   list-style: none;
@@ -94,9 +87,6 @@ h2 {
 }
 
 @media screen and (min-width: 767px) {
-  /* .container {
-    padding: 0px 32px;
-  } */
   .catalog-list {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 16px;
@@ -107,9 +97,6 @@ h2 {
   }
 }
 @media screen and (min-width: 1280px) {
-  /* .container {
-    padding: 0px 65px;
-  } */
   .catalog-list {
     grid-template-columns: repeat(3, 1fr);
     gap: 23px;
