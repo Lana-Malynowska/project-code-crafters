@@ -12,10 +12,12 @@
   align-items: center;
 }
 h2 {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .catalog-title {
+  display: inline-block;
+  width: 100%;
   color: #0c0c0c;
 }
 .catalog-list {
@@ -97,6 +99,9 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
+  h2 {
+    margin-bottom: 40px;
+  }
   .catalog-list {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 16px;
