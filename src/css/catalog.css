@@ -20,7 +20,8 @@
   gap: 23px;
 }
 .catalog-item {
-  width: 100%;
+  width: 335px;
+  height: 364px;
   padding: 24px;
   background-color: #f3f3f3;
   border: 1px solid #0c0c0c0d;
@@ -97,6 +98,11 @@
     column-gap: 16px;
     row-gap: 23px;
   }
+
+  .catalog-item {
+    width: 344px;
+    height: 414px;
+  }
   .catalog-hidden-mobile {
     display: block;
   }
@@ -108,5 +114,8 @@
   .catalog-list {
     grid-template-columns: repeat(3, 1fr);
     gap: 23px;
+  }
+  .catalog-item {
+    width: 368px;
   }
 }
