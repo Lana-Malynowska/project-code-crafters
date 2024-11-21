@@ -73,9 +73,16 @@
 
 .hero-image{
   padding-top: 28px;
+  border-radius: 30px;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 768px) {
+  .hero-image {
+      padding-top: 0;
+      border-radius: 50px;
+  }
+
   .upper-hero-back{
     flex-direction: row;
     gap: 11px;
