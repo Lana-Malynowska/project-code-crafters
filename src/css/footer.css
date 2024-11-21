@@ -1,12 +1,12 @@
+.footer-section-container {
+  padding-bottom: 20px;
+}
+
 .footer-container {
   border-radius: 30px;
   padding: 40px 28px 28px;
   color: #fbfbfb;
   background-color: #0c0c0c;
-}
-
-.footer-section-container {
-  padding-bottom: 20px;
 }
 
 .footer-grid-container {
@@ -100,8 +100,11 @@
 }
 
 @media (min-width: 768px) {
+  .footer-section-container {
+    padding-bottom: 32px;
+  }
+
   .footer-container {
-    margin-bottom: 32px;
     padding: 40px 40px 28px;
   }
 
@@ -166,6 +169,10 @@
 }
 
 @media (min-width: 1280px) {
+  .footer-section-container {
+    padding-inline: 32px;
+  }
+
   .footer-grid-container {
     grid-template-columns: 1fr 523px 1fr;
     grid-template-rows: 222px;
