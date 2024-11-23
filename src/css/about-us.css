@@ -65,6 +65,11 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.about-us-images {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
 @media screen and (min-width: 768px) {
     .about-us-box {
         display: flex;
@@ -91,6 +96,10 @@
 
     .button-about-us {
         margin-bottom: 80px;
+    }
+
+    .about-us-images {
+        border-radius: 50px;
     }
 }
 
